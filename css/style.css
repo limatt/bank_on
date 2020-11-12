@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    /*z-index: 1000;*/
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0,0,0,0.15) 0px 1px 1px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 50px;
+}
+
+.itens-menu{
+    width: auto;
+    margin-left: 30px;
+    color: #333;
+}
+
+.itens-menu:hover{
+    color:#f35900;
+}
+
+#right-side-menu-itens{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    font-weight: bold;
+}
+
+#login a{
+    color:#f35900;
+}
+
+#btn-menu{
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    height:100%;
+    background:#f35900;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-menu:hover{
+   background: #e27a3e;
+}
+
+
+.texto-vermelho{
+    color:#f35900;
+}
+
+#conta-digital{
+    display: flex;
+    padding: 2%;
+}
+
+#conta-digital div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conta-digital p{
+    text-align: left;
+    width: 40%;
+    font-size: 40px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#conta-digital p span a{
+    font-size: 20px;
+    color:#f35900 ;
+}
+
+#conta-digital img{
+    width: 500px;
+}
+
+#cartao-credito{
+    display: flex;
+    padding: 2%;
+    margin-top: 45px;
+}
+
+#cartao-credito div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartao-credito p{
+    text-align: left;
+    width: 40%;
+    font-size: 40px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#cartao-credito p span a{
+    font-size: 30px;
+    color:#f35900 ;
+    text-decoration: underline;
+}
+
+#cartao-credito img{
+    width: 500px;
+}
+
+#rewards{
+    display: flex;
+    margin-top: 10%;
+    padding: 10%;
+    background:#a03b01 ;
+}
+
+#rewards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rewards p{
+    text-align: left;
+    color: white;
+    width: 40%;
+    font-size: 40px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#rewards p span{
+    color: #fa8744;
+}
+
+#rewards p span a{
+    font-size: 20px;
+    color: white;
+}
+
+#rewards img{
+    width: 500px;
+}
+
+#contato{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#contato-email{
+    border: 1px solid #f35900;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 50px;
+    color: white;
+    background: #f35900;
+}
+
+#contato-email:hover{
+    background: transparent;
+    color: #f35900;
+    transition: all 0.6s ease;
+}
+
+footer{
+    background: #333;
+    height: 200px;
+    padding: 5%;
+    color: white;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    font-size: 25px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #f35900;
+}
+
+#redes-sociais-footer{
+    width: 20%;
+}
+
+#redes-sociais-footer a{
+    margin-right: 5%;
+}
+
+.itens-footer{
+    margin-top: 5%;
+}
+
+#redes-sociais-footer a img{
+    width: 35px;
+}  
+
+.flut{
+    right: 3%;
+    position: fixed;
+    bottom: 30px;
+}
+
+#caixaTexto{
+    background: white;
+    color: #000;
+    position: fixed;
+    width: 130px;
+    bottom: 55px;
+    right: 95px;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+    visibility: hidden;
+}
